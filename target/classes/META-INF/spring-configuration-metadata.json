@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.luo.demo.domain.Person",
+      "sourceType": "com.luo.demo.domain.Person"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

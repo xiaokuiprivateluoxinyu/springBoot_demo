@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  servlet:
+    encoding:
+      charset: utf-8
+person:
+  age: 11
+  name: "����"
+  birthday: 2020/11/2
+  map: {kk: 11,name: wwww}
+  list:
+     - 1
+     - 2
+
+
+
+
