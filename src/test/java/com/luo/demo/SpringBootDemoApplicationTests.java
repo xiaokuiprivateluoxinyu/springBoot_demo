@@ -10,6 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -26,6 +28,16 @@ class SpringBootDemoApplicationTests {
         Field name = clazz.getDeclaredField("name");
         name.setAccessible(true);
         System.out.println(name.get(person));
+
     }
 
+    @Test
+    void name() {
+        HashMap<String,String> map=new HashMap();
+        map.put("1","2");
+        /*String a=map.put("1","3");
+        System.out.println(a);*/
+        map.put("1","3");
+        System.out.println(map.get("1"));
+    }
 }

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b0e0496-64d5-44cd-8ce7-8e62bdf7c8bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/luo/demo/SpringBootDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luo/demo/SpringBootDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luo/demo/SpringBootDemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luo/demo/SpringBootDemoApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboot_demo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,12 +64,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33301252" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="JUnit.SpringBootDemoApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.SpringBootDemoApplicationTests.name">
     <configuration name="SpringBootDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_demo" />
       <extension name="coverage">
@@ -84,6 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootDemoApplicationTests.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luo.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luo.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.luo.demo.SpringBootDemoApplicationTests" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.luo.demo.SpringBootDemoApplication" />
@@ -93,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringBootDemoApplicationTests.name" />
         <item itemvalue="JUnit.SpringBootDemoApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -125,6 +144,8 @@
       <workItem from="1600916269413" duration="13380000" />
       <workItem from="1601016612820" duration="3335000" />
       <workItem from="1601171074507" duration="908000" />
+      <workItem from="1602234438213" duration="3450000" />
+      <workItem from="1602465598865" duration="6850000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1600916656096</created>
@@ -147,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600998393514</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1602234511615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602234511615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,30 +190,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601001138713" />
-    <state x="457" y="113" key="CommitChangelistDialog2" timestamp="1600998392066">
+    <state x="457" y="113" key="CommitChangelistDialog2" timestamp="1602234508160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="457" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600998392066" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600916354349">
+    <state x="457" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602234508160" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1602660075302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600916354349" />
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1601025701044">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602660075302" />
+    <state width="1877" height="362" key="GridCell.Tab.0.bottom" timestamp="1602642066009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601025701044" />
-    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1601025701044">
+    <state width="1877" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602642066009" />
+    <state width="1877" height="362" key="GridCell.Tab.0.center" timestamp="1602642066009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601025701044" />
-    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1601025701044">
+    <state width="1877" height="362" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602642066009" />
+    <state width="1877" height="362" key="GridCell.Tab.0.left" timestamp="1602642066008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601025701044" />
-    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1601025701044">
+    <state width="1877" height="362" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602642066008" />
+    <state width="1877" height="362" key="GridCell.Tab.0.right" timestamp="1602642066009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601025701044" />
+    <state width="1877" height="362" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602642066009" />
     <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1601016588587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,22 +246,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601016587867" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1601019887434">
+    <state x="477" y="85" key="SettingsEditor" timestamp="1602660130692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601019887434" />
+    <state x="477" y="85" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602660130692" />
     <state x="806" y="434" key="VCS.ChangelistChooser" timestamp="1600998375082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="434" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600998375082" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1600998395693">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1602234513000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600998395693" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601171115528">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602234513000" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1602465836828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601171115528" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602465836828" />
+    <state x="753" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602641811564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602641811564" />
     <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1600999279997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
