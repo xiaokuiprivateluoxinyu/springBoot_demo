@@ -1,7 +1,6 @@
 package com.luo.demo.domain;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -14,6 +13,7 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
+
     private Integer age;
     private String name;
     private Date birthday;

@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.lang.ref.SoftReference;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -33,11 +34,11 @@ class SpringBootDemoApplicationTests {
 
     @Test
     void name() {
-        HashMap<String,String> map=new HashMap();
-        map.put("1","2");
-        /*String a=map.put("1","3");
-        System.out.println(a);*/
-        map.put("1","3");
-        System.out.println(map.get("1"));
+      SoftReference<Byte[]> softReference=new SoftReference<>(new Byte[1024*1024*10]);
+        String a="qqq";
+        switch (a){
+            case "qqq":
+                System.out.println(1);
+        }
     }
 }
